@@ -1,0 +1,26 @@
+﻿  Tile.cpp
+C:\Users\jakec\OneDrive\Desktop\FinalGame\MultiThreadedPathfinding\Project1\Project1\Tile.cpp(5,38): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jakec\OneDrive\Desktop\FinalGame\MultiThreadedPathfinding\Project1\Project1\Tile.cpp(5,30): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  game.cpp
+  grid.cpp
+C:\Users\jakec\OneDrive\Desktop\FinalGame\MultiThreadedPathfinding\Project1\Project1\grid.cpp(9,50): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jakec\OneDrive\Desktop\FinalGame\MultiThreadedPathfinding\Project1\Project1\grid.cpp(9,42): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  main.cpp
+  Generating Code...
+  Project1.vcxproj -> C:\Users\jakec\OneDrive\Desktop\FinalGame\MultiThreadedPathfinding\Project1\Debug\Project1.exe
