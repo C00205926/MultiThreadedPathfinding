@@ -1,6 +1,7 @@
 #pragma once
 #include "SFML/Graphics.hpp"
 #include "grid.h"
+#include <iostream>
 
 class Game
 {
@@ -15,9 +16,13 @@ public:
 
 	sf::RenderWindow m_window;
 
+	sf::Mouse mouse;
+
 private:
 	sf::Event ev;
 
-	Grid g;
+	sf::Vector2f m_mousePos;
+
+	Grid grid;
 };
 

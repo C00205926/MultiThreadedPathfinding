@@ -1,5 +1,5 @@
 #include "Tile.h"
-
+#include <iostream>
 Tile::Tile(sf::Vector2f pos)
 {
 	m_tile.setSize(sf::Vector2f(height, width));
@@ -21,5 +21,13 @@ void Tile::render(sf::RenderWindow* window)
 
 void Tile::update()
 {
-
+	if (obstacle) {
+		m_tile.setFillColor(sf::Color::Black);
+	}
+	if (start) {
+		m_tile.setFillColor(sf::Color::Green);
+	}
+	if (end) {
+		m_tile.setFillColor(sf::Color::Red);
+	}
 }

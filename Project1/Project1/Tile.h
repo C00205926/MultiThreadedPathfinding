@@ -11,7 +11,11 @@ public:
 
 	sf::RectangleShape m_tile;
 
-	int height = 15;
-	int width = 15;
+	int height = 30;
+	int width = 30;
+	
+	bool obstacle = false;
+	bool end = false;
+	bool start = false;
 };
 
