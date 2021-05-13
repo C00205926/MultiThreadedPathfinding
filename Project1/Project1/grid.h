@@ -19,12 +19,18 @@ public:
 
 	void end(sf::Vector2f m_pos);
 
+
 	bool start_b = false;
 	bool end_b = false;
+
+	sf::Font t_font;
+
 
 private:
 	int height = 50, width = 50;
 
 	Tile *grid[50][50];
+
+	bool cost_b = true;
 };
 

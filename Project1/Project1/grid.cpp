@@ -3,11 +3,16 @@
 
 Grid::Grid()
 {
+	if (!t_font.loadFromFile("arial.ttf"))
+	{
+		std::cout << "Error Loading Font" << std::endl;
+	}
+
 	for (int x = 0; x < height; x++) 
 	{
 		for (int y = 0; y < width; y++)
 		{
-			grid[x][y] = new Tile(sf::Vector2f(15 * x, 15 * y));
+			grid[x][y] = new Tile(sf::Vector2f(15 * x, 15 * y), &t_font);
 		}
 	}
 }
@@ -33,6 +38,8 @@ void Grid::obs(sf::Vector2f m_pos)
 	
 	if (grid[(int)m_pos.x][(int)m_pos.y]->obstacle == false) {
 		grid[(int)m_pos.x][(int)m_pos.y]->obstacle = true;
+		grid[(int)m_pos.x][(int)m_pos.y]->text.setString(std::to_string(grid[(int)m_pos.x][(int)m_pos.y]->t_cost = 999));
+		grid[(int)m_pos.x][(int)m_pos.y]->text.setFillColor(sf::Color::White);
 	}
 
 }
@@ -54,6 +61,8 @@ void Grid::end(sf::Vector2f m_pos)
 		grid[(int)m_pos.x][(int)m_pos.y]->end = true;
 	}
 }
+
+
 
 void Grid::render(sf::RenderWindow* win)
 {

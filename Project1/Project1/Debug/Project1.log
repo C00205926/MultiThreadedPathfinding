@@ -1,36 +1,13 @@
-﻿  Tile.cpp
-C:\Users\jakec\OneDrive\Desktop\Path\MultiThreadedPathfinding\Project1\Project1\Tile.cpp(5,38): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+﻿  grid.cpp
+C:\Users\jakec\OneDrive\Desktop\Path\MultiThreadedPathfinding\Project1\Project1\grid.cpp(15,50): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\jakec\OneDrive\Desktop\Path\MultiThreadedPathfinding\Project1\Project1\Tile.cpp(5,30): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\jakec\OneDrive\Desktop\Path\MultiThreadedPathfinding\Project1\Project1\grid.cpp(15,42): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-  game.cpp
-C:\Users\jakec\OneDrive\Desktop\Path\MultiThreadedPathfinding\Project1\Project1\game.cpp(15,48): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
-          with
-          [
-              T=float
-          ]
-C:\Users\jakec\OneDrive\Desktop\Path\MultiThreadedPathfinding\Project1\Project1\game.cpp(16,48): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
-          with
-          [
-              T=float
-          ]
-  grid.cpp
-C:\Users\jakec\OneDrive\Desktop\Path\MultiThreadedPathfinding\Project1\Project1\grid.cpp(10,50): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-          with
-          [
-              T=float
-          ]
-C:\Users\jakec\OneDrive\Desktop\Path\MultiThreadedPathfinding\Project1\Project1\grid.cpp(10,42): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-          with
-          [
-              T=float
-          ]
-  main.cpp
-  Generating Code...
+  LINK : C:\Users\jakec\OneDrive\Desktop\Path\MultiThreadedPathfinding\Project1\Debug\Project1.exe not found or not built by the last incremental link; performing full link
   Project1.vcxproj -> C:\Users\jakec\OneDrive\Desktop\Path\MultiThreadedPathfinding\Project1\Debug\Project1.exe
