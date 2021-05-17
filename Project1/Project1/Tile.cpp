@@ -1,5 +1,6 @@
 #include "Tile.h"
 #include <iostream>
+
 Tile::Tile(sf::Vector2f pos, sf::Font *font)
 {
 
@@ -13,12 +14,14 @@ Tile::Tile(sf::Vector2f pos, sf::Font *font)
 	text.setPosition(pos);
 	text.setCharacterSize(10.0f);
 	text.setFillColor(sf::Color::Black);
-	text.setString(std::to_string(t_cost));
+	text.setString("");
 }
 
 void Tile::SetCost(int cost)
 {
 	t_cost = cost;
+
+	text.setString(std::to_string(t_cost));
 }
 
 Tile::~Tile()

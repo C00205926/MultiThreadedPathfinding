@@ -10,6 +10,11 @@ public:
 	Grid();
 	~Grid();
 
+	void gridFifty();
+	void gridHundred();
+	void Clear();
+
+
 	void update();
 	void render(sf::RenderWindow * win);
 
@@ -19,6 +24,11 @@ public:
 
 	void end(sf::Vector2f m_pos);
 
+	void SetStartCost();
+	void SetUpCost(int x, int y);
+
+
+	void setUpNode(int row, int col, int n_row, int n_col, int cost);
 
 	bool start_b = false;
 	bool end_b = false;
@@ -27,9 +37,13 @@ public:
 
 
 private:
+	int sizeX = 30, sizeY = 20;
+
 	int height = 50, width = 50;
 
 	Tile *grid[50][50];
+
+	std::vector<Tile *> p_Que;
 
 	bool cost_b = true;
 };

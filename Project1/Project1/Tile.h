@@ -25,6 +25,8 @@ public:
 	bool start = false;
 	bool done = false;
 
+	bool path = false;
+
 	std::pair<int, int> p_node;
 };
 

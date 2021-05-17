@@ -18,6 +18,10 @@ public:
 
 	sf::Mouse mouse;
 
+	sf::Keyboard k;
+
+	int clickX = 30 ,clickY = 20;
+
 private:
 	sf::Event ev;
 

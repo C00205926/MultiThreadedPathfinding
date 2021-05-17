@@ -1,13 +1,12 @@
 ﻿  grid.cpp
-C:\Users\jakec\OneDrive\Desktop\Path\MultiThreadedPathfinding\Project1\Project1\grid.cpp(15,50): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\jakec\OneDrive\Desktop\Path\MultiThreadedPathfinding\Project1\Project1\grid.cpp(15,56): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\jakec\OneDrive\Desktop\Path\MultiThreadedPathfinding\Project1\Project1\grid.cpp(15,42): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\jakec\OneDrive\Desktop\Path\MultiThreadedPathfinding\Project1\Project1\grid.cpp(15,45): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-  LINK : C:\Users\jakec\OneDrive\Desktop\Path\MultiThreadedPathfinding\Project1\Debug\Project1.exe not found or not built by the last incremental link; performing full link
   Project1.vcxproj -> C:\Users\jakec\OneDrive\Desktop\Path\MultiThreadedPathfinding\Project1\Debug\Project1.exe
